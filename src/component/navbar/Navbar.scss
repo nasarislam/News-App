@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700;800&family=Bebas+Neue&family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+.navbar{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+max-width: 390px;
+width: 100%;
+background-color: rgb(00, 80, 80);
+}
+.header{
+    max-width: 375px;
+width: 100%;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+}
+.header ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.menulist{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    max-width: 375px;
+    width: 100%;
+    margin: 10px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 5px;
+    height: 40px;
+}
+.menudiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 375px;
+    width: 100%;
+    height: 92vh;
+    position: absolute;
+    top: 10px;
+    backdrop-filter: blur(3px);
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7))
+    // filter: blur(1px);
+    // -webkit-filter: blur(1px);
+}
+.menu{
+    cursor: pointer;
+    color: white;
+}
+.searchlogo{
+    cursor: pointer;
+    color: white;
+}
+// .close{
+//     display: inline;
+//     position: relative;
+//     right: 38%;
+//     width: 100px;
+// }
+
+.navlogo{
+    width: 120px;
+    margin-top: 20px;
+    
+}
+.newinput > input{
+    width: 300px;
+    padding: 10px
+}
+.searchinput{
+    position:absolute;
+    top: 110px;
+    max-width: 390px;
+    width: 100%;
+}
+.newinput{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // width: 375px;
+    // width: 100%;
+    height: 100px;
+    backdrop-filter: blur(3px);
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7))
+}
+.listimg{
+    width: 300px;
+    margin: 20px;
+}
+// .upNav{
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-around;
+// }

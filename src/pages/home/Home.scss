@@ -1,0 +1,36 @@
+.grid{
+    display: flex;
+    padding: 7px;
+    // height: 100px;
+}
+.newsimg{
+    width: 108px;
+    height: 108px;
+}
+p{
+    display: block;
+    color: silver;
+}
+// details > summary {
+//     padding-left: 10px;
+//     display: block;
+//     width: 240px;
+//     // background-color: #eeeeee;
+//     border: none;
+//     // box-shadow: 1px 1px 2px #bbbbbb;
+//     cursor: pointer;
+//   }
+  
+  h5{
+    padding-left: 10px;
+    margin: 0;
+    cursor: pointer;
+    color: black;
+  }
+  a{
+    text-decoration: none;
+  }
+  .grid{
+    border-bottom: 1px solid silver;
+  }
+  
